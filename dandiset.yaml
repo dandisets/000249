@@ -10,8 +10,6 @@ assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -21,22 +19,18 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  - name: voltage clamp technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 108465527467
-  numberOfFiles: 1012
-  numberOfSubjects: 104
+  numberOfBytes: 97968237237
+  numberOfFiles: 777
+  numberOfSubjects: 54
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - TwoPhotonSeries
-  - ImagingPlane
   - OpticalChannel
-  - VoltageClampSeries
-  - VoltageClampStimulusSeries
+  - ImagingPlane
+  - TwoPhotonSeries
 citation: Schiavo, Jennifer K.; Valtcheva, Silvana; Bair-Marshall, Chloe J.; Song,
   Soomin C.; Martin, Kathleen A.; Froemke, Robert C. (2022) Innate and plastic mechanisms
   for maternal behaviour in auditory cortex (Version draft) [Data set]. DANDI archive.
@@ -131,6 +125,12 @@ relatedResource:
   relation: dcite:IsDescribedBy
   repository: Nature
   schemaKey: Resource
+- identifier: https://doi.org/10.6084/m9.figshare.c.5043830.v6
+  name: Innate and plastic mechanisms in auditory cortex for maternal behavior
+  relation: dcite:IsOriginalFormOf
+  repository: FigShare
+  schemaKey: Resource
+  url: https://figshare.com/collections/Innate_and_plastic_mechanisms_in_auditory_cortex_for_maternal_behavior/5043830
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
