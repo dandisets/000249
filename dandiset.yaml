@@ -33,8 +33,8 @@ assetsSummary:
   - TwoPhotonSeries
 citation: Schiavo, Jennifer K.; Valtcheva, Silvana; Bair-Marshall, Chloe J.; Song,
   Soomin C.; Martin, Kathleen A.; Froemke, Robert C. (2023) Innate and plastic mechanisms
-  for maternal behaviour in auditory cortex (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000249/draft
+  for maternal behaviour in auditory cortex (Version 0.230423.1416) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000249/0.230423.1416
 contributor:
 - affiliation: []
   email: ben.dichter@gmail.com
@@ -109,15 +109,16 @@ description: Infant cries evoke powerful responses in parents. Whether parental 
   that required cortical activity and the hypothalamic oxytocin system. Neuroplastic
   mechanisms therefore build on an intrinsic sensitivity in the mouse auditory cortex,
   and enable rapid plasticity for reliable parenting behaviour.
+doi: 10.48324/dandi.000249/0.230423.1416
 ethicsApproval: []
-id: DANDI:000249/draft
+id: DANDI:000249/0.230423.1416
 identifier: DANDI:000249
 keywords:
 - oxytocin
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000249/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000249/0.230423.1416/assets.yaml
 name: Innate and plastic mechanisms for maternal behaviour in auditory cortex
 protocol: []
 publishedBy:
@@ -148,6 +149,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000249/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000249/0.230423.1416
+version: 0.230423.1416
 wasGeneratedBy: []
