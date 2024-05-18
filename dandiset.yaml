@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000249
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
-about: []
+about:
+- identifier: UBERON:0001393
+  name: auditory cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -28,11 +31,11 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - TwoPhotonSeries
   - OpticalChannel
   - ImagingPlane
-  - TwoPhotonSeries
 citation: Schiavo, Jennifer K.; Valtcheva, Silvana; Bair-Marshall, Chloe J.; Song,
-  Soomin C.; Martin, Kathleen A.; Froemke, Robert C. (2023) Innate and plastic mechanisms
+  Soomin C.; Martin, Kathleen A.; Froemke, Robert C. (2024) Innate and plastic mechanisms
   for maternal behaviour in auditory cortex (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000249/draft
 contributor:
@@ -88,7 +91,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-05-18T13:58:54.819909+00:00'
-datePublished: '2023-04-23T14:16:50.412829+00:00'
 description: Infant cries evoke powerful responses in parents. Whether parental animals
   are intrinsically sensitive to neonatal vocalizations, or instead learn about vocal
   cues for parenting responses is unclear. In mice, pup-naive virgin females do not
@@ -120,28 +122,19 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000249/versions/draft/assets/
 name: Innate and plastic mechanisms for maternal behaviour in auditory cortex
 protocol: []
-publishedBy:
-  endDate: '2023-04-23T14:16:50.412829+00:00'
-  id: urn:uuid:4ba664d9-1114-435e-8321-1371411727ff
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-04-23T14:16:50.412829+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:e217ce54-8184-4810-b0ea-2b18e85e5cf7
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41586-020-2807-6
   name: Innate and plastic mechanisms for maternal behaviour in auditory cortex
   relation: dcite:IsDescribedBy
   repository: Nature
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
+  url: https://www.nature.com/articles/s41586-020-2807-6
 - identifier: https://doi.org/10.6084/m9.figshare.c.5043830.v6
   name: Innate and plastic mechanisms in auditory cortex for maternal behavior
   relation: dcite:IsOriginalFormOf
   repository: FigShare
+  resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://figshare.com/collections/Innate_and_plastic_mechanisms_in_auditory_cortex_for_maternal_behavior/5043830
 repository: https://dandiarchive.org
